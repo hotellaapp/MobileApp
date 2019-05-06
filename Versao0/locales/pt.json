@@ -1,0 +1,94 @@
+{
+  "login": {
+    "welcome": "{{name}}, bem-vindo/a à nossa app localizada!",
+    "unlock_button": "Desbloquear",
+    "hotel_button": "Lista Hóteis",
+    "placeholder":"Codigo",
+    "info":"Insira o código fornecido pelo hotel para aceder aos serviços"
+  },
+  "user_Menu": {
+    "Home": "Home",
+    "InterestPoints":"Mapa" ,
+    "Services": "Serviços",
+    "Requests":"Pedidos"
+  },
+  "request_state": {
+    "0": "Criado",
+    "1":"Em tratamento" ,
+    "2": "Completo",
+    "3": "Avaliado"
+  },
+  "pay_state": {
+    "0": "Aguarda pagamento",
+    "1":"Pago" 
+  },
+  "request_aval": {
+    "0": "Ocupado",
+    "1":"Disponível" ,
+    "3": "Pode Ser Reservado" 
+  },
+  "request_Button":{
+    "0":"Reservar",
+    "1": "Não é possível"
+  },
+  "pedidoReq":{
+    "state":"Estado",
+    "price": "Preço",
+    "comment":"Comentário",
+    "placeholder": "opcional",
+    "Choice_title":"Confirmação de pedido",
+    "Choice_YES":"OK",
+    "Choice_NO":"Cancelar",
+    "Confirm_title":"Aviso",
+    "Confirm_text" :"Pedido Efetuado",
+    "T_Units" :"Quantidade",
+    "T_Hours":"Horas",
+    "PH_Units" :"Quantas unidades",
+    "PH_Hours":"Quantas horas"
+  },
+  "aval_Button":{
+    "ok":"Avaliar",
+    "no": "A avaliação poderá ser feita quando o pedido estiver completo",
+    "done":"Já avaliado"
+  },
+  "pedido_Details":{
+    "state":"Estado",
+    "price": "Preço",
+    "description":"Descrição",
+    "date": "Data"
+  },
+  "aval":{
+    "name":"Avaliação",
+    "button": "Avaliar",
+    "text": "Avalie o seu serviço",
+    "placeholder": "opcional",
+    "comment":"Comentário",
+    "Confirm_title":"Aviso",
+    "Confirm_text" :"O pedido foi avaliado"
+  },
+  "pedidoExt":{
+    "state":"Estado",
+    "price": "Preço",
+    "comment":"Comentário",
+    "placeholder": "opcional",
+    "Confirm_title":"Aviso",
+    "Confirm_text" :"Pedido Efetuado",
+    "button_title":"Reservar",
+    "Choice_title":"Confirmação de pedido",
+    "Choice_YES":"OK",
+    "Choice_NO":"Cancelar",
+    "Name":"Nome",
+    "placeholder_Name": "Seu Nome",
+    "Contact":"Email",
+    "placeholder_Contact": "Seu Email"
+
+  },
+  "map":{
+  "here":"Você está aqui!",
+  "gpsOFF":"Ligue o GPS por favor!",
+  },
+  "pedidoInfo":{
+    "InfoTitle" : "Nome",
+    "desc": "Descricao"
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "login": {
+    "welcome": "¡{{name}}, bienvenido a nuestra aplicación localizada!",
+    "unlock_button": "Desbloquear",
+    "hotel_button": "Lista de hoteles",
+    "placeholder":"Clave",
+    "info":"Ingrese la clave provisto por el Hotel para acceder a sus servicios"
+  },
+  "user_Menu": {
+    "Home": "Home",
+    "InterestPoints":"Atracciones cercanas" ,
+    "Services": "Servicios",
+    "Requests":"Sus pedidos"
+  },
+  "request_state": {
+    "0": "Creado",
+    "1":"En resolución" ,
+    "2": "Terminado"
+  },
+  "pay_state": {
+    "0": "Espera el pagamento",
+    "1": "Pago" 
+  },
+  "request_aval": {
+    "0": "Ocupado",
+    "1": "Disponible" 
+  },
+  "request_Button":{
+    "0":"Pedido",
+    "1": "Imposible"
+  },
+  "pedidoReq":{
+    "state":"Estado",
+    "price": "Precio",
+    "comment":"Comentario",
+    "placeholder": "Opcional",
+    "Choice_title":"Pedir aprobación",
+    "Choice_YES":"Ok",
+    "Choice_NO":"Cancelar",
+    "Confirm_title":"Aviso",
+    "Confirm_text" :"Pedido creado"
+  },
+  "aval_Button":{
+    "ok":"Calificar",
+    "no": "La calificación solo es posible cuando se complete el pedido",
+    "done":"Ya calificado"
+  },
+  "pedido_Details":{
+    "state":"Estado",
+    "price": "Precio",
+    "description":"Descripción",
+    "date": "Data"
+  },
+  "aval":{
+    "name":"Calificación",
+    "button": "Calificar",
+    "text": "Calificar el servicio",
+    "placeholder": "opcional",
+    "comment":"Comentario",
+    "Confirm_title":"Avisos",
+    "Confirm_text" :"Pedido clasificado"
+  },
+  "pedidoExt":{
+    "state":"Estado",
+    "price": "Precio",
+    "comment":"Comentario",
+    "placeholder": "opcional",
+    "Confirm_title":"Avisos",
+    "Confirm_text" :"Pedido creado",
+    "button_title":"Pedido",
+    "Choice_title":"Pedido aprobado",
+    "Choice_YES":"OK",
+    "Choice_NO":"Cancelar",
+    "Name":"Nombre",
+    "placeholder_Name": "Su nombre",
+    "Contact":"Email",
+    "placeholder_Contact": "Su Email"
+
+  }
+}
