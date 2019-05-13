@@ -1,0 +1,3 @@
+rootProject.name = 'Versao2'
+
+include ':app'
