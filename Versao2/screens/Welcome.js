@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Dimensions, Image, FlatList, Modal, StyleSheet, Text } from 'react-native';
+import { Dimensions, Image, FlatList, Modal, StyleSheet, Text, Animated } from 'react-native';
 
 // import { Button, Block, Text } from '../components';
 import { theme } from '../constants';
