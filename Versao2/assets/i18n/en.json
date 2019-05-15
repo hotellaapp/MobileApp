@@ -1,0 +1,94 @@
+{
+  "login": {
+    "welcome": "{{name}}, welcome to our localized app!",
+    "unlock_button": "Unlock",
+    "hotel_button": "Hotel List",
+    "placeholder":"Code",
+    "info":"Enter the code provided by the Hotel to acess its services"
+  },
+  "user_Menu": {
+    "Home": "Home",
+    "InterestPoints":"Map" ,
+    "Services": "Services",
+    "Requests":"Requests"
+  },
+  "request_state": {
+    "0": "Created",
+    "1":"In Service" ,
+    "2": "Completed",
+    "3": "Avaluated"
+  },
+  "pay_state": {
+    "0": "Awaits payment",
+    "1":"Paid" 
+  },
+  "request_aval": {
+    "0": "Occupied",
+    "1":"Available" ,
+    "3": "Can be reserved"
+  },
+  "request_Button":{
+    "0":"Request",
+    "1": "Not Possible"
+  },
+  "pedidoReq":{
+    "state":"Status",
+    "price": "Price",
+    "comment":"Comment",
+    "placeholder": "optional",
+    "Choice_title":"Request Approval",
+    "Choice_YES":"OK",
+    "Choice_NO":"Cancel",
+    "Confirm_title":"Notice",
+    "Confirm_text" :"Request created",
+    "T_Units" :"Units",
+    "T_Hours":"Horas",
+    "PH_Units" :"How many you want",
+    "PH_Hours":"How many hours"
+  },
+  "aval_Button":{
+    "ok":"Rate",
+    "no": "Rating only possible upon request completion",
+    "done":"Already rated"
+  },
+  "pedido_Details":{
+    "state":"Status",
+    "price": "Price",
+    "description":"Description",
+    "date": "Date"
+  },
+  "aval":{
+    "name":"Rating",
+    "button": "Rate",
+    "text": "Rate the service",
+    "placeholder": "optional",
+    "comment":"Comment",
+    "Confirm_title":"Notice",
+    "Confirm_text" :"Request rated"
+  },
+  "pedidoExt":{
+    "state":"Status",
+    "price": "Price",
+    "comment":"Comment",
+    "placeholder": "optional",
+    "Confirm_title":"Notice",
+    "Confirm_text" :"Request created",
+    "button_title":"Request",
+    "Choice_title":"Request Approval",
+    "Choice_YES":"OK",
+    "Choice_NO":"Cancel",
+    "Name":"Name",
+    "placeholder_Name": "Your Name",
+    "Contact":"Email",
+    "placeholder_Contact": "Your Email"
+
+  },
+  "map":{
+  "here":"You are here!",
+  "gpsOFF":"Turn the GPS on please!",
+  },
+  "pedidoInfo":{
+    "InfoTitle" : "Name",
+    "desc": "Description"
+  }
+}

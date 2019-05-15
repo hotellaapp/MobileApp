@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
-import { Dimensions, Image, FlatList, Modal, StyleSheet, Text, Animated } from 'react-native';
+import { Dimensions, Image, FlatList, Modal, StyleSheet, Animated, Text, View } from 'react-native';
+// import { RkStyleSheet, RkText, RkTextInput, RkTheme} from 'react-native-ui-kitten';
+// import Orientation from 'react-native-orientation';
 
-// import { Button, Block, Text } from '../components';
+//import { Button, Block, Text } from '../components';
 import { theme } from '../constants';
+import Images from '../assets/images';
+import {translation} from '../assets/i18n/index';
 
-const { width, height } = Dimensions.get('window');
+//const { width, height } = Dimensions.get('window');
+
 
 class Welcome extends Component {
   static navigationOptions = {
@@ -21,7 +26,10 @@ class Welcome extends Component {
     const { navigation } = this.props;
 
     return (
-      <Text style={styles.welcome}>Welcome to React Native!</Text>
+      <View style={styles.Login_header}>
+        <Text>{translation('login.info')}</Text>
+        <Image key={1} source={Images.welcome.hotellaLogo} />
+      </View>
     )
   }
 }
@@ -41,4 +49,11 @@ const styles = StyleSheet.create({
     borderRadius: 5,
     marginHorizontal: 2.5,
   },
+  Login_screen: {
+    flex: 1,
+    paddingHorizontal: 16,
+    paddingVertical: 200,
+    justifyContent: 'space-between',
+    backgroundColor: '#3BA2DC'
+  }
 })
