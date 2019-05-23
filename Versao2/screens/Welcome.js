@@ -8,6 +8,8 @@ import { theme } from '../constants';
 import Images from '../assets/images';
 import {translation} from '../assets/i18n/index';
 
+import { getUserAuthorization } from './services/Login';
+
 //const { width, height } = Dimensions.get('window');
 
 
@@ -22,6 +24,27 @@ class Welcome extends Component {
     showTerms: false,
   }
   
+  handleLogin() {
+    getUserAuthorization('username', 'password')
+        .then((res) => {
+          if(res.message === 'Not Found') {
+            // this.setState({
+            //     error: 'User not found'
+            // });
+          }
+          else {
+            // this.props.navigator.push({
+            //   title: res.name || 'No Title',
+            //   passProps: {userInfo: res}
+            // });
+            // this.setState({
+            //   error: false,
+            //   username: ''
+            // })
+          }
+      });
+  }
+
   render() {
     const { navigation } = this.props;
 
