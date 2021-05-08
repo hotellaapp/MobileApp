@@ -12,7 +12,7 @@
     "5": "0.0.1",
     "@ercpereda/react-native-accordion": "^2.0.6",
     "color": "^0.11.3",
-    "lodash": "^4.13.1",
+    "lodash": "^4.17.21",
     "moment": "^2.13.0",
     "native-base": "2.1.4",
     "npm": "^6.1.0",
